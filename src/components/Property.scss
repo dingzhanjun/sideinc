@@ -1,0 +1,53 @@
+.property-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  position: relative;
+  justify-content: space-between;
+
+  .fav-btn-container {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    right: 2rem;
+    top: 2rem;
+  }
+
+  .photo {
+    min-width: 100%;
+    border-radius: 5px;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 0.5rem 0;
+
+    .summary {
+      padding: 0.5rem 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .price {
+      font-size: 1.6rem;
+      font-weight: bold;
+      padding-bottom: 0.2rem;
+    }
+
+    .address {
+      font-size: 0.9rem;
+      padding-bottom: 0.2rem;
+    }
+
+    .list-date {
+      font-size: 0.85rem;
+      color: #aaa;
+      padding-bottom: 0.5rem;
+    }
+  }
+}

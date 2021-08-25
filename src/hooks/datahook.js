@@ -41,7 +41,7 @@ export const useDataApi = (initialUrl, initialData) => {
       try {
         const result = await axios(url, {
           headers: {
-            Authorization: 'Basic c2ltcGx5cmV0czpzaW1wbHlyZXRz',
+            Authorization: 'Basic c2ltcGx5cmV0czpzaW1wbHlyZXRz', // this token can be replace
           },
         });
 

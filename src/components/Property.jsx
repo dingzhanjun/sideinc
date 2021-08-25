@@ -5,6 +5,7 @@ import PropertyListDate from './PropertyListDate';
 import PropertyPrice from './PropertyPrice';
 import PropertySummary from './PropertySummary';
 import FavButton from './FavButton';
+import './Property.scss';
 
 const Property = ({
   photos,
