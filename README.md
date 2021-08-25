@@ -18,5 +18,4 @@
 - Axios is used to make http request
 - Property list page uses grid layout to display properties
 - Layout is mobile first
-
-<!-- Please document your code & design decisions here. -->
+- No pagination or virtualization is employed to deal with potential performance issue when dataset is large
