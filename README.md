@@ -10,9 +10,13 @@
 
 # Code and Design Decisions
 
-- components has all components
-- pages has all views, other views can be added here
-- hooks has all custome hooks
-- sass is employed for styling
+- Folder omponents has all components
+- Folder pages has all views, other views can be added here
+- Folder hooks has all custome hooks
+- Sass is employed for styling
+- Custome Hook is used to help fetch data
+- Axios is used to make http request
+- Property list page uses grid layout to display properties
+- Layout is mobile first
 
 <!-- Please document your code & design decisions here. -->
